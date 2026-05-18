@@ -42,7 +42,7 @@ Clicking a notification or its **Open File** button reveals the changed file in 
 ## Building
 
 ```bash
-git clone https://github.com/your-username/Filert.git
+git clone https://github.com/Phaskal/Filert.git
 cd Filert
 open Filert.xcodeproj
 ```
