@@ -1,0 +1,10 @@
+# Xcode user-specific files (contain your macOS username and local state)
+xcuserdata/
+*.xcuserstate
+
+# Build output
+build/
+DerivedData/
+
+# macOS
+.DS_Store
