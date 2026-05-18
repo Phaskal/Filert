@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABB3001AABB3001AABB3001 /* FilertApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB2001AABB2001AABB2001 /* FilertApp.swift */; };
+		AABB3002AABB3002AABB3002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB2002AABB2002AABB2002 /* AppDelegate.swift */; };
+		AABB3003AABB3003AABB3003 /* WatchedPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB2003AABB2003AABB2003 /* WatchedPath.swift */; };
+		AABB3004AABB3004AABB3004 /* ChangeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB2004AABB2004AABB2004 /* ChangeRecord.swift */; };
+		AABB3005AABB3005AABB3005 /* FileWatcherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB2005AABB2005AABB2005 /* FileWatcherService.swift */; };
+		AABB3006AABB3006AABB3006 /* ICloudMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB2006AABB2006AABB2006 /* ICloudMonitor.swift */; };
+		AABB3007AABB3007AABB3007 /* SleepWakeMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB2007AABB2007AABB2007 /* SleepWakeMonitor.swift */; };
+		AABB3008AABB3008AABB3008 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB2008AABB2008AABB2008 /* NotificationService.swift */; };
+		AABB3009AABB3009AABB3009 /* WatchlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB2009AABB2009AABB2009 /* WatchlistManager.swift */; };
+		AABB300AAABB300AAABB300A /* MenuBarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB200AAABB200AAABB200A /* MenuBarMenuView.swift */; };
+		AABB300BAABB300BAABB300B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB200BAABB200BAABB200B /* SettingsView.swift */; };
+		AABB3020AABB3020AABB3020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABB2021AABB2021AABB2021 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AABB0004AABB0004AABB0004 /* Filert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABB2001AABB2001AABB2001 /* FilertApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilertApp.swift; sourceTree = "<group>"; };
+		AABB2002AABB2002AABB2002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AABB2003AABB2003AABB2003 /* WatchedPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchedPath.swift; sourceTree = "<group>"; };
+		AABB2004AABB2004AABB2004 /* ChangeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeRecord.swift; sourceTree = "<group>"; };
+		AABB2005AABB2005AABB2005 /* FileWatcherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWatcherService.swift; sourceTree = "<group>"; };
+		AABB2006AABB2006AABB2006 /* ICloudMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICloudMonitor.swift; sourceTree = "<group>"; };
+		AABB2007AABB2007AABB2007 /* SleepWakeMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepWakeMonitor.swift; sourceTree = "<group>"; };
+		AABB2008AABB2008AABB2008 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		AABB2009AABB2009AABB2009 /* WatchlistManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistManager.swift; sourceTree = "<group>"; };
+		AABB200AAABB200AAABB200A /* MenuBarMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarMenuView.swift; sourceTree = "<group>"; };
+		AABB200BAABB200BAABB200B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AABB2020AABB2020AABB2020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABB2021AABB2021AABB2021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABB0012AABB0012AABB0012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABB0002AABB0002AABB0002 = {
+			isa = PBXGroup;
+			children = (
+				AABB1001AABB1001AABB1001 /* Filert */,
+				AABB0003AABB0003AABB0003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABB0003AABB0003AABB0003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABB0004AABB0004AABB0004 /* Filert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABB1001AABB1001AABB1001 /* Filert */ = {
+			isa = PBXGroup;
+			children = (
+				AABB2001AABB2001AABB2001 /* FilertApp.swift */,
+				AABB2002AABB2002AABB2002 /* AppDelegate.swift */,
+				AABB1002AABB1002AABB1002 /* Models */,
+				AABB1003AABB1003AABB1003 /* Services */,
+				AABB1004AABB1004AABB1004 /* Managers */,
+				AABB1006AABB1006AABB1006 /* Views */,
+				AABB1007AABB1007AABB1007 /* Resources */,
+			);
+			path = Filert;
+			sourceTree = "<group>";
+		};
+		AABB1002AABB1002AABB1002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AABB2003AABB2003AABB2003 /* WatchedPath.swift */,
+				AABB2004AABB2004AABB2004 /* ChangeRecord.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AABB1003AABB1003AABB1003 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AABB2005AABB2005AABB2005 /* FileWatcherService.swift */,
+				AABB2006AABB2006AABB2006 /* ICloudMonitor.swift */,
+				AABB2007AABB2007AABB2007 /* SleepWakeMonitor.swift */,
+				AABB2008AABB2008AABB2008 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AABB1004AABB1004AABB1004 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AABB2009AABB2009AABB2009 /* WatchlistManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		AABB1006AABB1006AABB1006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AABB200BAABB200BAABB200B /* SettingsView.swift */,
+				AABB200AAABB200AAABB200A /* MenuBarMenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AABB1007AABB1007AABB1007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AABB2020AABB2020AABB2020 /* Info.plist */,
+				AABB2021AABB2021AABB2021 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABB0010AABB0010AABB0010 /* Filert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABB0032AABB0032AABB0032 /* Build configuration list for PBXNativeTarget "Filert" */;
+			buildPhases = (
+				AABB0011AABB0011AABB0011 /* Sources */,
+				AABB0012AABB0012AABB0012 /* Frameworks */,
+				AABB0013AABB0013AABB0013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Filert;
+			productName = Filert;
+			productReference = AABB0004AABB0004AABB0004 /* Filert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABB0001AABB0001AABB0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = AABB0022AABB0022AABB0022 /* Build configuration list for PBXProject "Filert" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AABB0002AABB0002AABB0002;
+			productRefGroup = AABB0003AABB0003AABB0003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABB0010AABB0010AABB0010 /* Filert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABB0013AABB0013AABB0013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABB3020AABB3020AABB3020 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABB0011AABB0011AABB0011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABB3001AABB3001AABB3001 /* FilertApp.swift in Sources */,
+				AABB3002AABB3002AABB3002 /* AppDelegate.swift in Sources */,
+				AABB3003AABB3003AABB3003 /* WatchedPath.swift in Sources */,
+				AABB3004AABB3004AABB3004 /* ChangeRecord.swift in Sources */,
+				AABB3005AABB3005AABB3005 /* FileWatcherService.swift in Sources */,
+				AABB3006AABB3006AABB3006 /* ICloudMonitor.swift in Sources */,
+				AABB3007AABB3007AABB3007 /* SleepWakeMonitor.swift in Sources */,
+				AABB3008AABB3008AABB3008 /* NotificationService.swift in Sources */,
+				AABB3009AABB3009AABB3009 /* WatchlistManager.swift in Sources */,
+				AABB300AAABB300AAABB300A /* StatusBarController.swift in Sources */,
+				AABB300BAABB300BAABB300B /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AABB0020AABB0020AABB0020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLES = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AABB0021AABB0021AABB0021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLES = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AABB0030AABB0030AABB0030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Filert/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filert.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AABB0031AABB0031AABB0031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Filert/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filert.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABB0022AABB0022AABB0022 /* Build configuration list for PBXProject "Filert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABB0020AABB0020AABB0020 /* Debug */,
+				AABB0021AABB0021AABB0021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABB0032AABB0032AABB0032 /* Build configuration list for PBXNativeTarget "Filert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABB0030AABB0030AABB0030 /* Debug */,
+				AABB0031AABB0031AABB0031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = AABB0001AABB0001AABB0001 /* Project object */;
+}
