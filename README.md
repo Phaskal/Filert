@@ -1,5 +1,7 @@
 # Filert
 
+[한국어](README.ko.md)
+
 A macOS menu bar app that watches files and folders for changes and sends native notifications.
 
 Filert runs silently in the menu bar and monitors any files or folders you add to its watchlist. When something changes, you get a notification with the exact time of the change and a button to open the file in Finder. It handles iCloud Drive files specifically well — even if your Mac was asleep when a change happened on another device, Filert catches it as soon as the Mac wakes up.
